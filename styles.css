@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #00b095;
+    --cor-secundaria: #8100c2;
+    --cor-destaque: #FFD700;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+   background: linear-gradient(135deg, #730cb8, #030015);
+    color: rgb(7, 7, 7);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.btn-link {
+    color: var(--cor-secundaria);
+    font-weight: 900;
+}
+
+a {
+    color: var(--cor-principal);
+}
+
+a:hover, .btn-link:hover {
+    color: var(--cor-destaque);
+}
+
+.my-5 {
+    color: #0f0f0f; /* Vermelho, substitua pela cor desejada */
+}
+
+.container {
+    color: #ffffff; /* Vermelho, substitua pela cor desejada */
+}
+
+.card {
+    background: linear-gradient(135deg, #730cb8, #030015); /* Degradê de preto para cinza escuro */
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1; /* Faz o corpo do card crescer para preencher o espaço */
+
+}
+
+.card-title{
+    color: antiquewhite;
+}
+
+.card-text{
+    color: antiquewhite;
+}
+
+.card-img-top {
+    height: 200px; /* Ajuste conforme necessário */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+.modal-content {
+    background-color: #0f0f0f; /* Substitua pela cor desejada, ex: #e9ecef (cinza claro) */
+}
+
+.my-5{
+    color: #ffffff;
+}
+
+   .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-30px); /* Eleva o card */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+    }
